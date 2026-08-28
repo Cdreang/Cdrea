@@ -1,10 +1,39 @@
 ---
 layout: default
-title: "Home Page"
-excerpt: Union Church of Monterrey's Official Website - Contact us for reservations!
+title: "Contact Us"
+excerpt: Get in touch with CDREA — Centre for Development Research, Enlightenment and Advocacy.
 ---
 
-<!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
-<!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
+<div class="jumbotron bg-dark text-light text-center section">
+  <h1 class="display-4 py-3">Contact Us</h1>
+  <p class="lead">We'd love to hear from you</p>
+</div>
 
-
+<div class="container my-4">
+  <div class="row text-center">
+    <div class="col-md-4 mx-auto">
+      <i class="fa fa-map-marker fa-2x"></i>
+      <h5 class="mt-3">Address</h5>
+      <p>
+        <a target="_blank" rel="noreferrer noopener" href="{{site.gmaps_link}}">
+          {{site.address}}
+        </a>
+      </p>
+    </div>
+    <div class="col-md-4 mx-auto">
+      <i class="fa fa-phone fa-2x"></i>
+      <h5 class="mt-3">Phone</h5>
+      <p><a href="tel:{{site.phone}}">{{site.phone}}</a></p>
+    </div>
+    <div class="col-md-4 mx-auto">
+      <i class="fa fa-envelope fa-2x"></i>
+      <h5 class="mt-3">Email</h5>
+      <p><a href="mailto:{{site.email}}">{{site.email}}</a></p>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-md-8 mx-auto text-center">
+      <p>Registration: {{site.cac_number}}</p>
+    </div>
+  </div>
+</div>

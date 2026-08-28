@@ -1,14 +1,14 @@
 ---
-title: Union Church of Monterrey
-tagline: We are an intentionally Biblical, interdenominational, international Church
-  with English as our primary worship language.
-url: https://gogvale.github.io/
-baseurl: /UnionChurch
+title: CDREA
+tagline: Centre for Development Research, Enlightenment and Advocacy, a non-political, non-profit organization strengthening good governance, civic participation and community development in Akwa Ibom State, Nigeria.
+url: https://cdreang.github.io
+baseurl: /Cdrea
 socialimg: "/img/social.jpg"
-gmaps_link: https://bit.ly/MapsUnionChurch
-phone: "+52 81 8346 0541"
-email: UnionChurchMty@gmail.com
-address: "Oscar F. Castillón #200, Col. Chepevera, Monterrey, N.L., México"
+gmaps_link: https://www.google.com/maps/search/?api=1&query=No1+Mbang+J+Close+off+Edet+Akpan+Avenue+Uyo+Akwa+Ibom+State
+phone: "+234 803 380 5713"
+email: cdrea2018@gmail.com
+address: "No1 Mbang J. Close, off Edet Akpan Avenue, Uyo, Akwa Ibom State, Nigeria"
+cac_number: "CAC/IT/NO. 109189"
 exclude:
 - ".scss"
 - README.md

@@ -1,7 +1,6 @@
 home: /
 aboutUs: /pages/about-us.html
-services: /pages/services.html
-ministries: /pages/ministries.html
-events: /pages/events.html
+programs: /pages/services.html
+getInvolved: /pages/ministries.html
+news: /pages/events.html
 contactUs: /pages/contact-us.html
-bodas: /pages/bodas.html
